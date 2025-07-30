@@ -6,7 +6,7 @@ import win32crypt
 from Crypto.Cipher import AES
 import shutil
 
-profile = r"C:\Users\Syeda Ayesha\AppData\Local\Google\Chrome\User Data\Profile 3"
+profile = r"C:\Users\Syeda Ayesha\AppData\Local\Google\Chrome\User Data\Profile 1"
 login_db = os.path.join(profile, "Login Data")
 local_state_path = os.path.join(os.path.dirname(profile), "Local State")
 
